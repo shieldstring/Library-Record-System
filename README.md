@@ -2,7 +2,7 @@
 
 A Python-based library management system designed to track books, users, and loans using Object-Oriented Programming principles. The system supports adding, managing, and interacting with books and users, and handles book borrowing and returning.
 
-###Features
+Features
 
 - Book Management: Add, remove, and search for books in the library collection.
 - User Management: Register users, manage their information, and track their borrowing history.
@@ -10,36 +10,43 @@ A Python-based library management system designed to track books, users, and loa
 - Error Handling: Comprehensive validation ensures data integrity.
 - Interactive CLI (Optional): Modify user and book details through a simple command-line interface.
 
-###Project Structure
+Project Structure
 
 library-record-system/
+
 │
+
 ├── main.py # Entry point for the application
+
 ├── book.py # Book class with methods to manage book details
+
 ├── book_list.py # BookList class to handle collections of books
+
 ├── user.py # User class for managing user data
+
 ├── user_list.py # UserList class to handle user collections
+
 └── loan.py # Loan class to manage book loans
 
-###Dependencies
+Dependencies
 
     Python 3.8+
     No external libraries required.
 
-###Installation
+Installation
 
     Clone the Repository:
 
 git clone https://github.com/your-username/library-record-system.git
 cd library-record-system
 
-###Run the Application:
+Run the Application:
 
     python main.py
 
     Ensure you have the necessary Python version installed.
 
-###Usage Guide
+Usage Guide
 
 1. Managing Books:
 
@@ -71,7 +78,7 @@ Return a Book:
 
     loan.return_book(username="jdoe", book_title="1984")
 
-###Testing
+Testing
 
     Manual Testing:
         Run main.py and interact with the system via the terminal.
